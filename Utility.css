@@ -124,3 +124,10 @@
 .pad{
     padding: 40px;
 }
+/* Text Style */
+.txt-deco{
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}

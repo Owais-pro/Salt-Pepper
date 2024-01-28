@@ -3,6 +3,7 @@
     --white:#ffffff;
     --black:#000000;
 }
+/* NavBar */
 #nav{
     margin-right: 150px;
 }
@@ -11,7 +12,6 @@
 }
 #navbar{
     padding: 10px  10px;
-    border-bottom: 1px solid white;
 }
 .nav-links{
     text-decoration: none;
@@ -42,30 +42,43 @@
     padding: 15px 15px;
     border: 2px solid white;
 }
-.center{
-    text-align: center;
-}
-.main-div{
-    max-width: 100%;
-}
-.rl-margin{
-padding-inline: 200px;
-}
-.text-grey{
-    color: gray;
-}
-.mb-5{
-    margin-bottom: 15px;
-}
-.text-div{
-    width: 450px;
-}
-.text-left{
-    text-align: left;
-}
 .gap{
     gap: 20px;
 }
+#pad-bot{
+    padding-bottom: 5px;
+    font-size: small;
+}
+#mar-bot{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+/* Form */
+
+#input{
+    width: 550px;
+    margin: 10px 0px 15px;
+    padding: 12px 12px;
+    border-radius: 5px;
+    
+}
+.gap{
+    gap: 30px;
+}
+#sub-btn{
+    padding: 13px;
+    color: #ffffff;
+    background-color: #eb0a0a;
+    border: none;
+    width: 150px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 20px;  
+    margin-bottom: 40px;
+} 
+
+/* Footer */
 #footer-img{
     width: 120px;
 }
@@ -85,12 +98,3 @@ padding-inline: 200px;
 .icons{
     padding-right: 10px;
 }
-
-#direction-btn{
-    background-color: transparent;
-    cursor: pointer;
-    padding: 10px 10px;
-    border: 2px solid white;
-    color: #ffffff;
-}
-
